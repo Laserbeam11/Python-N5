@@ -1,3 +1,5 @@
+#On The Computer: Basic Arithmetic
+#task 2c
 Eng_score = int(input("english score: "))
 Maths_score = int(input("maths score: "))  
 computing_science_score = int(input("computing science score: "))
