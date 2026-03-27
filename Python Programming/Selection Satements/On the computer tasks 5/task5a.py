@@ -133,3 +133,31 @@ else:
 
 wait = input("press enter to end the quiz and get results")
 
+print("you got " + str(marks) + " out of 10")
+if marks == 1:
+    print("10%... you need to do some research")
+elif marks == 2:
+    print("20%... you need to do some research")
+elif marks == 3:
+    print("30%... you need to do some research")
+elif marks == 4:
+    print("40%... you need to do some research")
+elif marks == 5:
+    print("50%... you need to do some research")
+elif marks == 6:
+    print("60%... nice try but you can do better")
+elif marks == 7:
+    print("70%... not bad but you can do better")
+elif marks == 8:
+    print("80%... good job but you can do better")
+elif marks == 9:
+    print("90%... great job but you can do better")
+elif marks == 10:
+    print("100%... perfect score! well done")
+elif marks == 0:
+    if input("0%... wow, you stupid, what's 10+9?") == "21":
+        print("correct... but you still got 0%")
+    else:
+        print("so you know math but not planes? bravo...")
+else:
+    print("error calculating results")
