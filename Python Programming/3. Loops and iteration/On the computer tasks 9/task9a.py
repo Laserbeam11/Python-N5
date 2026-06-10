@@ -1,4 +1,4 @@
-#On the computer: Loops and Iteration
+#On the computer: Conditional loops (while)
 #task 9a
 #-------------------------------------------------
 #On the computer: Multiple Selection (Else IF)

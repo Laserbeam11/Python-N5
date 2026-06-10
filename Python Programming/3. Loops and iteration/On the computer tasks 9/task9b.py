@@ -1,4 +1,4 @@
-#On the computer: Loops and Iteration
+#On the computer: Conditional loops (while)
 #task 9b
 import random
 random_number = random.randint(1, 100000)
