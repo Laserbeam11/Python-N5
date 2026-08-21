@@ -4,9 +4,9 @@ leapyear = input("Is it a leap year? (y/n): ")
 if weekday == "SA":
     noSaturdays = 53
 elif weekday == "FR" and leapyear == "y":
-    noSaturdays = 52
-else:
     noSaturdays = 53
+else:
+    noSaturdays = 52
 
 #added --
 print()
