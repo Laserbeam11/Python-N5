@@ -1,6 +1,8 @@
 #311d Project
 import turtle
 
+t = turtle.Turtle()
+
 header = "=" * 68
 h = 0
 a = 0
@@ -10,13 +12,14 @@ def scoreboard():
     print()
     print(f"\n{header}\n")
     print(f"home team: {h} | away team: {a}")
-    print(f"             {x}")
+    print(f"              {x}")
     print(f"\n{header}\n")
     print()
 
 def terminal_scoreboard():
+    global h, a, x
 
-    while x < 4:
+    while x < 3:
         enter_point = input("enter point:  ")
         if enter_point.lower() == "h":
             print("home team scores")
@@ -58,7 +61,8 @@ def terminal_scoreboard():
         print("tie")
 
 def turtle_scoreboard():
-    print("hi")
+    global h, a, x
+    
 
 print()
 print("ice hockey scoreboard")
