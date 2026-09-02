@@ -105,5 +105,7 @@ random_word = random.choice(word_list())
 hud() # 2. display intro text
 guess_n = wordley(random_word, 1)
 
+print("end of the road")
 
-print("END OF THE ROAD")
+
+

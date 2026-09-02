@@ -60,10 +60,6 @@ def terminal_scoreboard():
     else:
         print("tie")
 
-def turtle_scoreboard():
-    global h, a, x
-    
-
 print()
 print("ice hockey scoreboard")
 
@@ -72,20 +68,7 @@ print("h: home team")
 print("a: away team")
 print("x: end period")
 print(f"\n{header}\n")
-
-Te_Tu = input("Turtle graphics or terminal scoreboard? (tu/te): ")
-
-if Te_Tu.lower() == "te":
-    print("terminal scoreboard selected")
-    print(f"\n{header}\n")
-
-    terminal_scoreboard()
-
-elif Te_Tu.lower() == "tu":
-    print("turtle graphics scoreboard selected")
-    print(f"\n{header}\n")
-
-    turtle_scoreboard()
+terminal_scoreboard()
 
 
 
