@@ -41,6 +41,7 @@ def scenario1():
     tip_amount = total_cost * 1.10
     print("Total cost including tip: £" + str(round(tip_amount, 2)))
     print()
+    
     menu()
 
     #pseudocode
